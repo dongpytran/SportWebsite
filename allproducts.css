@@ -1,0 +1,131 @@
+﻿/*This is for all products*/
+h3 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.main-products {
+    width: 96%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+/*This is for the left in the master page 2*/
+.main-left {
+    width: 20%;
+    height: 100%;
+    float: left;
+    border: solid 1px #d5d5d5;
+    border-radius: 10px;
+    padding-left: 5px;
+    margin-bottom: 200px;
+    margin-top: 22px;
+}
+/*This is a right with all products*/
+.main-right {
+}
+/*This is for PRODUCT DATABINDING*/
+.list-product {
+    width:78.5%;
+    float: right;
+    margin-bottom: 200px;
+}
+.list-product p{
+    padding-left: 5px;
+    font-size: .9rem;
+}
+.list-product p span{
+    color: red;
+}
+.product-item {
+    width:222px;
+    text-align: center;
+    border-radius: 10px;
+}
+.product-item table{
+    border: solid 1px #d5d5d5;
+    border-radius: 5px;
+}
+.product-item table:hover {
+    transform: translateY(-5px);
+    transition: .4s ease-in-out;
+}
+.btn-add-tocart {
+    width: 45%;
+    height: 100%;
+    float: left;
+    margin-left: 5px;
+    background:#000;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    font-size: 9px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.btn-add-tocart:hover{
+    background: #d5d5d5;
+    color: #000;
+    transition: .5s;
+}
+.detail {
+    width: 45%;
+    height: 100%;
+    float: right;
+    margin-right: 5px;
+    background: #d5d5d5;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 9px;
+    cursor: pointer;
+}
+.btn-detail {
+    color: #000;
+}
+.detail:hover .btn-detail{
+    color: #fff;
+    transition: .5s;
+}
+
+.grid-item2:hover{
+    width: 100%;
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+/**/
+.new-product {
+    width: 77.5%;
+    margin: 0 auto;
+}
+.new-product h1{
+    text-align: left;
+    padding-left: 10px;
+}
+.btn-read-more {
+    text-align: center;
+    margin-top: 10px;
+}
+.btn-read-more button{
+    width: 100px;
+    height: 40px;
+    background: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-read-more button a{
+    color: #Fff;
+}
+.btn-read-more button:hover{
+    background:#adadad;
+    transition: .5s;
+    box-shadow: 0 0 5px #000,
+				0 0 5px #000;
+	border-radius: 5px;
+}
+.btn-read-more button:hover a{
+    color: #000;
+}
+/**/

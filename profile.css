@@ -1,0 +1,15 @@
+﻿.user-info {
+    width: 80%;
+    margin: 100px auto;
+}
+.user-info .table-info {
+    width: 40%;
+    margin: 0 auto;
+}
+.user-info .table-info td{
+    padding-top: 20px;
+}
+.edit-profile, .confirm-edit {
+    width: 100px;
+    height: 40px;
+}

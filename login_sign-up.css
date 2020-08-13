@@ -1,0 +1,171 @@
+﻿
+/*This is for Login and Sign up Page*/
+
+/*This is for login form*/
+.login-form{
+    clear: both;
+	width: 360px;
+	background: #fff;
+    padding: 50px 40px;
+    border: solid 1px #adadad;
+    border-radius: 10px;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 100px;
+
+}
+/*Sign up form*/
+.signup-form {
+    width: 360px;
+	background: #fff;
+	height: 770px;
+    padding: 50px 40px;
+    border: solid 1px #adadad;
+    border-radius: 10px;
+    position:relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 100px;
+}
+/*This is for both*/
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.two-input {
+    clear: both;
+    width: 100%;
+    padding-top: 10px;
+    z-index: 10000;
+}
+.txtb{
+    border-bottom: solid 2px #adadad;
+    position: relative;
+    margin: 30px 0;
+}
+.txtb .input{
+    font-size: 15px;
+    color: #333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 30px;
+}
+.txtb span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #fff;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .5s;
+}
+.txtb span::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg,#3498db, #8e44ad);
+    transition: .5s;
+}
+.focus + span::before{
+    top: -5px;
+    color:#000;
+}
+.focus + span::after {
+    width: 100%;
+}
+
+.logbtn {
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: linear-gradient(120deg,#3498db, #8e44ad);
+    background-size: 150%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.logbtn:hover {
+    background-position:right;
+}
+.bottom-text {
+    margin-top: 30px;
+    text-align: center;
+    font-size: .8rem;
+}
+.gender {
+    float: right;
+    border: none;
+}
+/*This is for 2 btn facbook and gmail*/
+.fb-gmail {
+    width: 100%;
+}
+.fb-gmail .btn-fb-gmail{
+    width: 48%;
+    float: left;
+    height: 50px;
+    cursor:pointer;
+    background: linear-gradient(120deg,#3498db, #8e44ad);
+    background-size: 150%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.fb-gmail .btn-fb-gmail:last-child{
+    float: right;
+}
+.fb-gmail .btn-fb-gmail:hover{
+    background-position: right;
+    transition: .5s;
+}
+
+/*FORGOT PASS*/
+.btn-send-code {
+    width: 30%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(120deg,#3498db, #8e44ad);
+    background-size: 150%;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    font-size: 1rem;
+    float: right;
+}
+.btn-send-code:hover {
+    background-position: right;
+}
+.user-code {
+    width: 60%;
+    float: left;
+    background:red;
+}
+.txt-user-code {
+    width: 100%;
+    height: 35px;
+    font-size: .9rem;
+    padding-left: 5px;
+}
+#user {
+    height: 50px;
+    padding-left: 20px;
+    color: red;
+    text-transform: none;
+    font-size: .8rem;
+    cursor: pointer;
+}
+.blockc {
+    display: block;
+}
